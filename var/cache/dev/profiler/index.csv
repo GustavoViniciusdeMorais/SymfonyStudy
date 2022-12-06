@@ -1,0 +1,9 @@
+4601eb,172.18.0.1,GET,http://localhost/,1670361155,,200
+bbea34,172.18.0.1,GET,http://localhost/gustavo/number,1670361336,44fcae,500
+44fcae,172.18.0.1,GET,http://localhost/gustavo/number,1670361336,,500
+b046c7,172.18.0.1,GET,http://localhost/gustavo/number,1670361353,,200
+bad7e8,172.18.0.1,GET,http://localhost/gustavo/number,1670361357,,200
+570445,172.18.0.1,GET,http://localhost/gustavo/number,1670361359,,200
+2b009b,172.18.0.1,GET,http://localhost/gustavo/test,1670362225,3f61ad,500
+3f61ad,172.18.0.1,GET,http://localhost/gustavo/test,1670362225,,500
+284d35,172.18.0.1,GET,http://localhost/gustavo/test,1670362243,,200
