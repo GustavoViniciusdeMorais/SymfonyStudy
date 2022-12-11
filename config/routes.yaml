@@ -30,3 +30,7 @@ app_lucky_number:
 gustavo_test:
     path: /gustavo/test
     controller: App\Controller\GustavoController::test
+
+app_products:
+    path: /products
+    controller: App\Controller\ProductsController::index

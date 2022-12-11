@@ -36,4 +36,5 @@ return [
     'user_change_password' => [['_locale'], ['_controller' => 'App\\Controller\\UserController::changePassword', '_locale' => 'en'], ['_locale' => 'ar|en|fr|de|es|cs|nl|ru|uk|ro|pt_BR|pl|it|ja|id|ca|sl|hr|zh_CN|bg|tr|lt|bs|sr_Cyrl|sr_Latn'], [['text', '/profile/change-password'], ['variable', '/', 'ar|en|fr|de|es|cs|nl|ru|uk|ro|pt_BR|pl|it|ja|id|ca|sl|hr|zh_CN|bg|tr|lt|bs|sr_Cyrl|sr_Latn', '_locale', true]], [], [], []],
     'app_lucky_number' => [[], ['_controller' => 'App\\Controller\\GustavoController::index'], [], [['text', '/gustavo/number']], [], [], []],
     'gustavo_test' => [[], ['_controller' => 'App\\Controller\\GustavoController::test'], [], [['text', '/gustavo/test']], [], [], []],
+    'app_products' => [[], ['_controller' => 'App\\Controller\\ProductsController::index'], [], [['text', '/products']], [], [], []],
 ];

@@ -16,6 +16,7 @@ return [
         '/_profiler/open' => [[['_route' => '_profiler_open_file', '_controller' => 'web_profiler.controller.profiler::openAction'], null, null, null, false, false, null]],
         '/gustavo/number' => [[['_route' => 'app_lucky_number', '_controller' => 'App\\Controller\\GustavoController::index'], null, null, null, false, false, null]],
         '/gustavo/test' => [[['_route' => 'gustavo_test', '_controller' => 'App\\Controller\\GustavoController::test'], null, null, null, false, false, null]],
+        '/products' => [[['_route' => 'app_products', '_controller' => 'App\\Controller\\ProductsController::index'], null, null, null, false, false, null]],
     ],
     [ // $regexpList
         0 => '{^(?'

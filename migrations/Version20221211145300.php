@@ -14,13 +14,16 @@ final class Version20221211145300 extends AbstractMigration
 {
     public function getDescription(): string
     {
-        return '';
+        return 'Build products table';
     }
 
     public function up(Schema $schema): void
     {
-        $schema = new Schema();
-        $myTable = $schema->createTable("product");
+        $myTable = $schema->createTable("products");
+        $myTable->addColumn("id", "integer", ["unsigned" => true, "autoincrement" => true]);
+        $myTable->addColumn("name", "string", ["length" => 255]);
+        $myTable->addColumn("price", "decimal", ["precision" => 10, "scale" => 2]);
+        $myTable->setPrimaryKey(["id"]);
     }
 
     public function down(Schema $schema): void
