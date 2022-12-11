@@ -5,6 +5,7 @@ services:
         build:
             context: .
             dockerfile: nginx.dockerfile
+        container_name: synginx
         ports:
             - 80:80
         volumes:
@@ -19,21 +20,23 @@ services:
         build:
             context: .
             dockerfile: php.dockerfile
+        container_name: syphp
         volumes:
             - ./:/var/www/html
         networks:
             - app-network
 
     mysql:
-          image: mysql:5.7
-          restart: always
-          ports:
-              - 3306:3306
-          environment:
-              MYSQL_DATABASE: laravel
-              MYSQL_ROOT_PASSWORD: laravel
-          networks:
-            - app-network
+        image: mysql:5.7
+        restart: always
+        ports:
+            - 3306:3306
+        container_name: symysql
+        environment:
+            MYSQL_DATABASE: laravel
+            MYSQL_ROOT_PASSWORD: laravel
+        networks:
+        - app-network
 
 networks:
     app-network:

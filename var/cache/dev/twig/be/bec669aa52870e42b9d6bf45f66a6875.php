@@ -137,6 +137,6 @@ class __TwigTemplate_1f09eb530bff66f6d5f06bdfeeca4d90 extends Template
         {% if form is not rootform %}</span>{% else %}</div>{% endif %}
     {%- endif %}
 {%- endblock form_errors %}
-", "form/layout.html.twig", "/var/www/html/my_project/templates/form/layout.html.twig");
+", "form/layout.html.twig", "/var/www/html/templates/form/layout.html.twig");
     }
 }

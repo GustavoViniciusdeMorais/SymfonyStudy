@@ -79,6 +79,6 @@ class __TwigTemplate_238940ede62e49dcc2fa715a18b7dc80 extends Template
     <line x1=\"21\" y1=\"12\" x2=\"18\" y2=\"12\"></line>
     <line x1=\"12\" y1=\"12\" x2=\"12\" y2=\"12.01\"></line>
 </svg>
-", "@Debug/Profiler/icon.svg", "/var/www/html/my_project/vendor/symfony/debug-bundle/Resources/views/Profiler/icon.svg");
+", "@Debug/Profiler/icon.svg", "/var/www/html/vendor/symfony/debug-bundle/Resources/views/Profiler/icon.svg");
     }
 }

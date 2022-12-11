@@ -77,6 +77,6 @@ class __TwigTemplate_20a2cc1040ba15494ff37ddfa9d938ce extends Template
     <path d=\"M9.168 14.828a4 4 0 0 1 0 -5.656\"></path>
     <path d=\"M6.337 17.657a8 8 0 0 1 0 -11.314\"></path>
 </svg>
-", "@WebProfiler/Icon/event.svg", "/var/www/html/my_project/vendor/symfony/web-profiler-bundle/Resources/views/Icon/event.svg");
+", "@WebProfiler/Icon/event.svg", "/var/www/html/vendor/symfony/web-profiler-bundle/Resources/views/Icon/event.svg");
     }
 }

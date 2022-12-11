@@ -69,6 +69,6 @@ class __TwigTemplate_56e58b01723868f3d2bacf75aca2ef1b extends Template
     <path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\"/>
     <rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"2\" />
 </svg>
-", "@WebProfiler/Icon/settings-width-fixed.svg", "/var/www/html/my_project/vendor/symfony/web-profiler-bundle/Resources/views/Icon/settings-width-fixed.svg");
+", "@WebProfiler/Icon/settings-width-fixed.svg", "/var/www/html/vendor/symfony/web-profiler-bundle/Resources/views/Icon/settings-width-fixed.svg");
     }
 }

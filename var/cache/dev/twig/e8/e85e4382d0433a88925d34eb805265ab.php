@@ -357,6 +357,6 @@ class __TwigTemplate_a973ede87ecbba5a724269138f6ba971 extends Template
     {{ show_source_code(_self) }}
     {{ include('blog/_rss.html.twig') }}
 {% endblock %}
-", "blog/index.html.twig", "/var/www/html/my_project/templates/blog/index.html.twig");
+", "blog/index.html.twig", "/var/www/html/templates/blog/index.html.twig");
     }
 }

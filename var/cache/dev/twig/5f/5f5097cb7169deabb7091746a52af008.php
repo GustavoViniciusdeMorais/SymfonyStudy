@@ -75,6 +75,6 @@ class __TwigTemplate_8803808bcfd3cba40bc9fbc6bc8f6486 extends Template
     <line x1=\"7\" y1=\"21\" x2=\"7\" y2=\"3\"></line>
     <path d=\"M20 6l-3 -3l-3 3\"></path>
 </svg>
-", "@WebProfiler/Icon/ajax.svg", "/var/www/html/my_project/vendor/symfony/web-profiler-bundle/Resources/views/Icon/ajax.svg");
+", "@WebProfiler/Icon/ajax.svg", "/var/www/html/vendor/symfony/web-profiler-bundle/Resources/views/Icon/ajax.svg");
     }
 }

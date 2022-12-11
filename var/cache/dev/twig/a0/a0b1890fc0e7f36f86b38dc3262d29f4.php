@@ -210,6 +210,6 @@ class __TwigTemplate_aeb47397117e22c79bf987b4979fbf58 extends Template
 
     {{ show_source_code(_self) }}
 {% endblock %}
-", "user/change_password.html.twig", "/var/www/html/my_project/templates/user/change_password.html.twig");
+", "user/change_password.html.twig", "/var/www/html/templates/user/change_password.html.twig");
     }
 }

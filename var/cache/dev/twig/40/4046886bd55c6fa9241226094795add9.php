@@ -186,6 +186,6 @@ class __TwigTemplate_d46bd620b9ca6f151be23d69d6021086 extends Template
 
     {{ show_source_code(_self) }}
 {% endblock %}
-", "@Twig/Exception/error403.html.twig", "/var/www/html/my_project/templates/bundles/TwigBundle/Exception/error403.html.twig");
+", "@Twig/Exception/error403.html.twig", "/var/www/html/templates/bundles/TwigBundle/Exception/error403.html.twig");
     }
 }

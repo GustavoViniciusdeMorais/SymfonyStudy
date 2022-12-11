@@ -175,6 +175,6 @@ class __TwigTemplate_54ac0fca0fc0148e37276cc60a7c789e extends Template
         </div>
     </div>
 </div>
-", "debug/source_code.html.twig", "/var/www/html/my_project/templates/debug/source_code.html.twig");
+", "debug/source_code.html.twig", "/var/www/html/templates/debug/source_code.html.twig");
     }
 }

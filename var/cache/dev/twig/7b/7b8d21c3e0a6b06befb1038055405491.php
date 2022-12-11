@@ -92,6 +92,6 @@ class __TwigTemplate_f015cc5b3f942a09a794fd9392503513 extends Template
         {{ 'action.delete_post'|trans }}
     </button>
 </form>
-", "admin/blog/_delete_form.html.twig", "/var/www/html/my_project/templates/admin/blog/_delete_form.html.twig");
+", "admin/blog/_delete_form.html.twig", "/var/www/html/templates/admin/blog/_delete_form.html.twig");
     }
 }

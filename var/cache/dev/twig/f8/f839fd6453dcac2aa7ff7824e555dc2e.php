@@ -155,6 +155,6 @@ class __TwigTemplate_bc4b3bd1311dbe55a3c63947b76b8804 extends Template
         </span>
     </div>
 {% endblock %}
-", "form/fields.html.twig", "/var/www/html/my_project/templates/form/fields.html.twig");
+", "form/fields.html.twig", "/var/www/html/templates/form/fields.html.twig");
     }
 }

@@ -220,6 +220,6 @@ class __TwigTemplate_d40af414bb5ce14877d50d52344592fc extends Template
 
     {{ show_source_code(_self) }}
 {% endblock %}
-", "blog/search.html.twig", "/var/www/html/my_project/templates/blog/search.html.twig");
+", "blog/search.html.twig", "/var/www/html/templates/blog/search.html.twig");
     }
 }

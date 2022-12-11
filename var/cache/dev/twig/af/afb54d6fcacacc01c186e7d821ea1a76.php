@@ -132,6 +132,6 @@ class __TwigTemplate_f0f6340e70f68ce16995d9eca788c47a extends Template
         {{ include('blog/_comment_form.html.twig') }}
     </div>
 {% endblock %}
-", "blog/comment_form_error.html.twig", "/var/www/html/my_project/templates/blog/comment_form_error.html.twig");
+", "blog/comment_form_error.html.twig", "/var/www/html/templates/blog/comment_form_error.html.twig");
     }
 }

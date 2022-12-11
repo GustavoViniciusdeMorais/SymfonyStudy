@@ -79,6 +79,6 @@ class __TwigTemplate_7f0e544064baceb986fe1e6de281ea29 extends Template
     <line x1=\"13\" y1=\"13\" x2=\"13\" y2=\"21\"></line>
     <line x1=\"21\" y1=\"12\" x2=\"21\" y2=\"21\"></line>
 </svg>
-", "@WebProfiler/Icon/time.svg", "/var/www/html/my_project/vendor/symfony/web-profiler-bundle/Resources/views/Icon/time.svg");
+", "@WebProfiler/Icon/time.svg", "/var/www/html/vendor/symfony/web-profiler-bundle/Resources/views/Icon/time.svg");
     }
 }

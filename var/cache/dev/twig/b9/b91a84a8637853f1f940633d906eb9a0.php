@@ -77,6 +77,6 @@ class __TwigTemplate_fa1086ff2dd927bcf6ee1cb84f5e9653 extends Template
     <rect x=\"12\" y=\"7\" width=\"8\" height=\"4\" rx=\"1\"></rect>
     <rect x=\"12\" y=\"15\" width=\"8\" height=\"4\" rx=\"1\"></rect>
 </svg>
-", "@WebProfiler/Icon/messenger.svg", "/var/www/html/my_project/vendor/symfony/web-profiler-bundle/Resources/views/Icon/messenger.svg");
+", "@WebProfiler/Icon/messenger.svg", "/var/www/html/vendor/symfony/web-profiler-bundle/Resources/views/Icon/messenger.svg");
     }
 }

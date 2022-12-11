@@ -229,6 +229,6 @@ class __TwigTemplate_2cdd7d481b955efd28f75a1648c131c8 extends Template
 
     {{ show_source_code(_self) }}
 {% endblock %}
-", "admin/blog/show.html.twig", "/var/www/html/my_project/templates/admin/blog/show.html.twig");
+", "admin/blog/show.html.twig", "/var/www/html/templates/admin/blog/show.html.twig");
     }
 }

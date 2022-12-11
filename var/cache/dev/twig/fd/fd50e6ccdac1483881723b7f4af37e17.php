@@ -200,6 +200,6 @@ class __TwigTemplate_5f7559b37275ac475c7ff89905b47c52 extends Template
     {{ parent() }}
     {{ encore_entry_script_tags('admin') }}
 {% endblock %}
-", "admin/layout.html.twig", "/var/www/html/my_project/templates/admin/layout.html.twig");
+", "admin/layout.html.twig", "/var/www/html/templates/admin/layout.html.twig");
     }
 }

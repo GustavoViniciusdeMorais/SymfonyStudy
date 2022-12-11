@@ -143,6 +143,6 @@ class __TwigTemplate_938fe8548466d3a9e189e52b29c362ce extends Template
         </a>
     {% endif %}
 {{ form_end(form) }}
-", "admin/blog/_form.html.twig", "/var/www/html/my_project/templates/admin/blog/_form.html.twig");
+", "admin/blog/_form.html.twig", "/var/www/html/templates/admin/blog/_form.html.twig");
     }
 }

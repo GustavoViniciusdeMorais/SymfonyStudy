@@ -69,6 +69,6 @@ class __TwigTemplate_94a430b43a5b21ab0a3c2212a80bb885 extends Template
     public function getSourceContext()
     {
         return new Source("{{ content|markdown_to_html }}
-", "@email/zurb_2/notification/content_markdown.html.twig", "/var/www/html/my_project/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/content_markdown.html.twig");
+", "@email/zurb_2/notification/content_markdown.html.twig", "/var/www/html/vendor/symfony/twig-bridge/Resources/views/Email/zurb_2/notification/content_markdown.html.twig");
     }
 }

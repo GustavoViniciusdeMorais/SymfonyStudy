@@ -412,6 +412,6 @@ class __TwigTemplate_daa0c129b6f016760919e1d6317a1fb6 extends Template
 
     {{ show_source_code(_self) }}
 {% endblock %}
-", "security/login.html.twig", "/var/www/html/my_project/templates/security/login.html.twig");
+", "security/login.html.twig", "/var/www/html/templates/security/login.html.twig");
     }
 }

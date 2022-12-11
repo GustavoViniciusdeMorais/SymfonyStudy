@@ -203,6 +203,6 @@ class __TwigTemplate_7edfc22066241ab83858bc4bfb0d7e7b extends Template
 
     {{ show_source_code(_self) }}
 {% endblock %}
-", "user/edit.html.twig", "/var/www/html/my_project/templates/user/edit.html.twig");
+", "user/edit.html.twig", "/var/www/html/templates/user/edit.html.twig");
     }
 }

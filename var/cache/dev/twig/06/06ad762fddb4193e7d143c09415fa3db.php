@@ -111,6 +111,6 @@ class __TwigTemplate_b227557c94e6c3b0de7041f1f13966c2 extends Template
     </p>
 {% endif %}
 
-", "blog/_post_tags.html.twig", "/var/www/html/my_project/templates/blog/_post_tags.html.twig");
+", "blog/_post_tags.html.twig", "/var/www/html/templates/blog/_post_tags.html.twig");
     }
 }

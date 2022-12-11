@@ -115,6 +115,6 @@ class __TwigTemplate_cacabb3030df4038782fcd860ffea6c5 extends Template
         </div>
     </div>
 </div>
-", "blog/_delete_post_confirmation.html.twig", "/var/www/html/my_project/templates/blog/_delete_post_confirmation.html.twig");
+", "blog/_delete_post_confirmation.html.twig", "/var/www/html/templates/blog/_delete_post_confirmation.html.twig");
     }
 }

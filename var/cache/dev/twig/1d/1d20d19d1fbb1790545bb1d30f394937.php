@@ -174,6 +174,6 @@ class __TwigTemplate_775457adb99b67fa521bd8ff98564d4f extends Template
         {% endfor %}
     </channel>
 </rss>
-", "blog/index.xml.twig", "/var/www/html/my_project/templates/blog/index.xml.twig");
+", "blog/index.xml.twig", "/var/www/html/templates/blog/index.xml.twig");
     }
 }

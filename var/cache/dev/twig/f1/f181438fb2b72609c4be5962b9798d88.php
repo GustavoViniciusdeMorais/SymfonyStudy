@@ -283,6 +283,6 @@ class __TwigTemplate_959a984663a911d005be97a4946300a9 extends Template
         });
     </script>
 {% endblock %}
-", "@WebProfiler/Profiler/open.html.twig", "/var/www/html/my_project/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.html.twig");
+", "@WebProfiler/Profiler/open.html.twig", "/var/www/html/vendor/symfony/web-profiler-bundle/Resources/views/Profiler/open.html.twig");
     }
 }

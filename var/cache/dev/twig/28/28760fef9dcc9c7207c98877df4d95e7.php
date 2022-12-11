@@ -216,6 +216,6 @@ class __TwigTemplate_839e04e2d8e7236f075932296b2cae19 extends Template
 
     {{ show_source_code(_self) }}
 {% endblock %}
-", "@Twig/Exception/error500.html.twig", "/var/www/html/my_project/templates/bundles/TwigBundle/Exception/error500.html.twig");
+", "@Twig/Exception/error500.html.twig", "/var/www/html/templates/bundles/TwigBundle/Exception/error500.html.twig");
     }
 }
