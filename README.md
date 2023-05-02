@@ -1,6 +1,8 @@
 # My Symfony Project
 
+### Migrate
 ```
+bin/console doctrine:migrations:migrate
 ```
 
 ```
@@ -50,3 +52,5 @@ Lucky number: 47
 ```
 
 ![](./imgs/makeController.png)
+<br>
+![Repository](./imgs/SymfonySimpleRepository.png)

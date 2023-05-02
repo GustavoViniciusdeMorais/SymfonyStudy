@@ -18,9 +18,11 @@
     </ul>
 
     <strong>Products</strong>
+    <ul>
     {% for product in products %}
-        {{ product.id }}: {{ product.name }}
+        <li>{{ product.id }}: {{ product.name }}</li>
     {% endfor %}
+    </ul>
 
 </div>
 {% endblock %}

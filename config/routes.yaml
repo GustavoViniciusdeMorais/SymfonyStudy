@@ -31,6 +31,16 @@ gustavo_test:
     path: /gustavo/test
     controller: App\Controller\GustavoController::test
 
+gustavo_dot:
+    path: /gustavo/dot/{value}
+    controller: App\Controller\GustavoController::dot
+    defaults:
+        value: 'abc'
+
+gustavo_product_create:
+    path: products/create
+    controller: App\Controller\GustavoController::create
+
 app_products:
     path: /products
     controller: App\Controller\ProductsController::index
