@@ -3,6 +3,8 @@
 ### Migrate
 ```
 bin/console doctrine:migrations:migrate
+bin/console doctrine:migrations:execute 'DoctrineMigrations\Version20230504213426' --down
+bin/console doctrine:migrations:execute 'DoctrineMigrations\Version20230504213426' --up
 ```
 
 ```
