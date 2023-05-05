@@ -6,6 +6,12 @@ bin/console doctrine:migrations:migrate
 bin/console doctrine:migrations:execute 'DoctrineMigrations\Version20230504213426' --down
 ```
 
+### Automatic migration and seed
+```
+chmod u+x configDb.sh
+./configDb.sh
+```
+
 ### Migration product category and seed fixture
 ```
 bin/console doctrine:migrations:execute 'DoctrineMigrations\Version20230504213426' --up
