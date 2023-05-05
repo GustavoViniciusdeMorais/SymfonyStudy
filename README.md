@@ -4,7 +4,13 @@
 ```
 bin/console doctrine:migrations:migrate
 bin/console doctrine:migrations:execute 'DoctrineMigrations\Version20230504213426' --down
+```
+
+### Migration product category and seed fixture
+```
 bin/console doctrine:migrations:execute 'DoctrineMigrations\Version20230504213426' --up
+
+bin/console doctrine:fixtures:load --group=CategoryFixture --append
 ```
 
 ```
