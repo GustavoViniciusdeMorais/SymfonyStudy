@@ -1,0 +1,14 @@
+App\Entity\Test:
+  type: entity
+  table: tests
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+  fieds:
+    name:
+      type: string
+      length: 255
+    value:
+      type: string
+      length: 255
