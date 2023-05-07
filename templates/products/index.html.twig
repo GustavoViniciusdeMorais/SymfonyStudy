@@ -18,11 +18,24 @@
     </ul>
 
     <strong>Products</strong>
-    <ul>
-    {% for product in products %}
-        <li>{{ product.id }}: {{ product.name }}</li>
-    {% endfor %}
-    </ul>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for product in products %}
+                <tr>
+                    <td>{{ product.id }}</td>
+                    <td>{{ product.name }}</td>
+                    <td>{{product.category.name}}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 
 </div>
 {% endblock %}
