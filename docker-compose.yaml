@@ -19,7 +19,7 @@ services:
     php:
         build:
             context: .
-            dockerfile: php.dockerfile
+            dockerfile: php71.dockerfile
         container_name: syphp
         volumes:
             - ./:/var/www/html
