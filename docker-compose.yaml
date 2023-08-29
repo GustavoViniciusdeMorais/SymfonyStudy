@@ -1,26 +1,13 @@
 version: '3'
 
 services:
-    nginx:
-        build:
-            context: .
-            dockerfile: nginx.dockerfile
-        container_name: synginx
-        ports:
-            - 80:80
-        volumes:
-            - ./:/var/www/html
-        depends_on:
-            - php
-            - mysql
-        networks:
-            - sy-app-network
-
     php:
         build:
             context: .
-            dockerfile: php71.dockerfile
+            dockerfile: ubuntu.dockerfile
         container_name: syphp
+        ports:
+            - 80:80
         volumes:
             - ./:/var/www/html
         networks:

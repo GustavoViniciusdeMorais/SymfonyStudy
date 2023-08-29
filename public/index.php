@@ -1,5 +1,5 @@
 <?php
-
+print_r(json_encode(['gustavosym']));echo "\n\n";exit;
 use App\Kernel;
 use Symfony\Component\ErrorHandler\Debug;
 use Symfony\Component\HttpFoundation\Request;
