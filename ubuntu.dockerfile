@@ -1,8 +1,10 @@
 # FROM gustavovinicius/gusphp7:latest
-FROM ubuntu:jammy
+FROM gustavovinicius/symfony4:latest
 # FROM gusphp71:latest
 
 RUN apt update
+
+RUN apt-get -y update
 
 RUN apt install nginx -y
 
