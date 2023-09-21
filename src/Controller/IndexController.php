@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\Hotel;
 use App\Service\RandomNumber;
 use Psr\Log\LoggerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -74,10 +75,30 @@ class IndexController extends AbstractController
         );
     }
 
-    public function resposta($data)
+    /**
+     * @Route("/hotels")
+     */
+    public function listHotels()
+    {
+        $result = [];
+        $status = 'error';
+        try {
+            $hotels = $this->getDoctrine()
+                ->getRepository(Hotel::class);
+            $result = $hotels->findAll();
+            $status = 'success';
+        } catch (\Exception $e) {
+            $result = [
+                'error' => $e->getMessage()
+            ];
+        }
+        return $this->resposta($result, $status);
+    }
+
+    public function resposta($data, $status = 'error')
     {
         return $this->json([
-            'status' => 'success',
+            'status' => $status,
             'data' => $data
         ]);
     }
