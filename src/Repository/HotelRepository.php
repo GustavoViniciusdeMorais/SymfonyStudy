@@ -47,14 +47,47 @@ class HotelRepository extends ServiceEntityRepository
         }
     }
 
-    // /**
-    //  * @return Hotel[] Returns an array of Hotel objects
-    //  */
-    /*
-    public function findByExampleField($value)
+    public function customFilter($filters): ?array
+    {
+        $message = 'Invalid filters!';
+        $result = false;
+        if (
+            !empty($filters)
+            && is_array($filters)
+        ) {
+            $query = $this->createQueryBuilder('h');
+
+            foreach ($filters as $filter) {
+                if (
+                    !empty($filter)
+                    && is_array($filters)
+                    && isset($filters['column'])
+                    && isset($filters['operation'])
+                    && isset($filters['value'])
+                ) {
+                    $query->andWhere(
+                        "h.{$filters['column']} {$filters['operation']} :{$filters['column']}"
+                    );
+                    $query->setParameter($filters['column'], $filters['value']);
+                } else {
+                    throw new \Exception($message);
+                }
+            }
+
+            $result = $query->setMaxResults(10)
+                ->getQuery()
+                ->getResult();
+        }
+        return $result;
+    }
+
+    /**
+     * @return Hotel[] Returns an array of Hotel objects
+     */
+    public function findByExampleField($value = 1)
     {
         return $this->createQueryBuilder('h')
-            ->andWhere('h.exampleField = :val')
+            ->andWhere('h.id = :val')
             ->setParameter('val', $value)
             ->orderBy('h.id', 'ASC')
             ->setMaxResults(10)
@@ -62,7 +95,6 @@ class HotelRepository extends ServiceEntityRepository
             ->getResult()
         ;
     }
-    */
 
     /*
     public function findOneBySomeField($value): ?Hotel

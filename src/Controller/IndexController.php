@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Entity\Hotel;
+use App\Service\HotelService;
 use App\Service\RandomNumber;
 use Psr\Log\LoggerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -93,6 +94,25 @@ class IndexController extends AbstractController
             ];
         }
         return $this->resposta($result, $status);
+    }
+
+    /**
+     * @Route("/hotels/{column?}/{value?}")
+     */
+    public function filterHotel(HotelService $service)
+    {
+        $result = [];
+        try {
+            $result = $this->getDoctrine()
+                ->getRepository(Hotel::class)
+                ->findByExampleField(1);
+        } catch (\Exception $e) {
+            $result = [
+                'message' => $e->getMessage()
+            ];
+        }
+
+        return $this->resposta($result);
     }
 
     public function resposta($data, $status = 'error')
