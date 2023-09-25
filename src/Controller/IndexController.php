@@ -105,7 +105,8 @@ class IndexController extends AbstractController
         try {
             $result = $this->getDoctrine()
                 ->getRepository(Hotel::class)
-                ->findByExampleField(1);
+                // ->findByExampleField(1);
+                ->customSearch(1);
         } catch (\Exception $e) {
             $result = [
                 'message' => $e->getMessage()

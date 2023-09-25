@@ -96,6 +96,20 @@ class HotelRepository extends ServiceEntityRepository
         ;
     }
 
+    public function customSearch($price = 1)
+    {
+        $entityManager = $this->getEntityManager();
+        return $entityManager->createQuery(
+            "
+            SELECT h FROM App\Entity\Hotel h
+            WHERE h.price < :price
+            ORDER BY h.id ASC
+            "
+        )
+        ->setParameter('price', $price)
+        ->execute();
+    }
+
     /*
     public function findOneBySomeField($value): ?Hotel
     {
